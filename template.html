@@ -30,7 +30,7 @@
 	      
 	      <a class="navbar-brand" href="#">
 	      	<span id="switcher">
-	      		<img class="logo" src="img/logomin.png" />
+	      		<img id="logohide" class="logo" src="img/logo.png" />
 	      	</span>
 	      </a>
 
@@ -40,18 +40,17 @@
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	     
 	    	<ul class="nav navbar-nav navbar-right">
-		        
-		        <!-- FAVORITES ICON
-
 		        <li>
 		        	<a href="favorites.html">
 		        		<span class="glyphicon glyphicon-star"></span>
 		        	</a>
-		        </li>  -->
+		        </li>
 
-		        <li>
-		        	
-		        	<form class="navbar-form navbar-right">
+		        <li class="dropdown">
+		          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button">Sign In<span class="caret"></span></a>
+			        <ul class="dropdown-menu" role="menu">
+			          	<li>
+			          		<form class="navbar-form navbar-right">
 			            	<div class="form-group">
 			              		<input type="text" placeholder="Email" class="form-control">
 			            	</div>
@@ -59,13 +58,11 @@
 			              		<input type="password" placeholder="Password" class="form-control">
 			            	</div>
 			            	<button type="submit" class="btn btn-success">Sign in</button>
-			            	<a href="signup.html"><button type="submit" class="btn btn-success">Sign Up!</button></a>
-			        </form>
-			     		
-			    </li> 
-
-			</ul> 
-			
+			          		</form>
+			      		</li> 
+			        </ul> 
+		        </li> <!-- /sign in form -->
+	      	</ul> <!-- /.navbar-right -->
 	    </div><!-- /.navbar-collapse -->
 	 </div><!-- /.container-fluid -->
 	 
@@ -76,73 +73,9 @@
 <!-- CONTENT -->
 
 	<div class="container">
+		
 
-	<!-- KEYWORD -->
-
-		<input type="text" class="col-lg-10" placeholder="Type in keyword here!" />
-
-		<br />
-	
-	<!-- CATEGORIES -->	
-
-		<h1> Select Weapon Type: </h1>
-
-		<div class="col-md-4" id="blade">
-		    <img src="img/blade.png" alt="Bladed (Swords, knives)" />
-		</div>
-
-		<div class="col-md-4" id="gun">
-		    <img src="img/gun.png" alt="Firearms (Guns, launchers, ammunition-based weaponry) "  />
-		</div>
-
-		<div class="col-md-4" id="blunt">
-		    <img src="img/bat.png" alt="Blunt-force (Sticks, batons, staves)" />
-		</div>
-
-	</div>
-
-
-	<!-- Advanced search -->
-
-	<div class="container">
-
-		<div class="col-lg-12" id="advanced">
-		    <!-- <input type="button" value="Advanced Filters" class="btn btn-success"> -->
-		    <h1> Advanced Filters: </h1>
-
-
-		</div>
-
-	</div>
-
-	<!-- Start Search Button -->
-
-	<div class="container">
-
-			<div class="col-md-4">
-			</div>
-
-			<div class="col-md-5" id="advanced">
-
-			     <a href="results.html"><button class="btn btn-success">Start Search!</button></a>
-			
-			</div>
-
-			<div class="col-md-4">
-			</div>
-
-	</div>
-
-	<!-- Footer -->
-	
-	<div class="container">
-
-		<footer class="col-lg-12">
-
-		</footer>
-
-	</div>
-	
+	</div> 
 
 <!--/ CONTENT-->
 

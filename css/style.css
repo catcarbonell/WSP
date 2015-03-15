@@ -1,0 +1,76 @@
+/* ArsenALL CSS  -- Cathleen Carbonell WSP 1503*/
+
+/* IMPORTED FONTS */
+
+/* ROKKITT */ @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700); 
+
+body {
+	background-color: #000;
+	color: #eee;
+}
+
+h1 {
+	font-family: 'Rokkitt', Courier, serif;
+	color: #333;
+}
+
+.hide {
+	display: none;
+}
+
+.container {
+	margin-top: 10%;
+}
+
+/* Navigation */
+
+.navbar {
+	background-color: #000;
+	border: 0;
+}
+
+.nav a:hover {
+	color: #ffcc33;
+}
+
+/* Button */
+
+button {
+	margin: 0 5px;
+}
+
+/* Input Fields */
+
+input[type=text] {
+	color: #333;
+}
+
+/* Images */
+
+img {
+	width: 75%;
+	max-width: 75%;
+}
+
+.logo { 
+	width: 75%;
+	max-width: 75%;
+}
+
+
+
+@media screen and (max-width: 487px) {
+
+  span[id=switcher]{
+	display: block;
+    background: url(img/logomin.png) no-repeat;!important;
+    background-size: 100%;
+    background-position: center !important;
+    width: 300px !important;
+    height: 250px !important;
+  }
+
+  img[id=logohide] {
+  	display: none !important;
+  }
+}
