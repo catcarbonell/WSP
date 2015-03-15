@@ -4,16 +4,14 @@
 
 /* ROKKITT */ @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700); 
 
+
+/* STYLE MAX 1027px */
 body {
 	background-color: #000;
 	color: #eee;
 	font-family: ;
 }
 
-h1 {
-	font-family: 'Rokkitt', Courier, serif;
-	color: #333;
-}
 
 a:link, a:visited {
 	color: #fff;
@@ -23,6 +21,7 @@ a:link, a:visited {
 a:hover {
 	color: #ffcc33;
 }
+
 .hide {
 	display: none;
 }
