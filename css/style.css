@@ -2,8 +2,10 @@
 
 /* IMPORTED FONTS */
 
-/* ROKKITT */ @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700); 
-/* RALEWAY */ @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+	/* ROKKITT */ @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700); 
+	/* RALEWAY */ @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
+	/* ANTON */ @import url(http://fonts.googleapis.com/css?family=Anton);
+	/* ARMATA */ @import url(http://fonts.googleapis.com/css?family=Armata);
 
 
 /* STYLE MAX 1027px */
@@ -26,11 +28,40 @@ a:hover {
 	color: #ffcc33;
 }
 
+/* FLOATS & CLEARS */
+
+.left {
+	float: left;
+	position: justify;
+}
+
+.right {
+	float: right;
+	position: justify;
+}
+
+.clear {
+	clear: both;
+}
+
 /* IMAGES */
 
 img {
 	width: 75%;
 	max-width: 75%;
+	padding: 5px;
+	border: 0;
+}
+
+.thumb {
+	width: 20%;
+	max-width: 20%;
+	margin: 5px;
+}
+
+.detail {
+	width: 95%;
+	max-width: 95%;
 }
 
 /* HEADERS */
@@ -38,6 +69,25 @@ img {
 h1 {
 	color: #333;
 	font-family: 'Rokkitt', Courier, serif;
+}
+
+h2 {
+	color: #ccc;
+	font-family: 'Anton', Arial, sans-serif;
+	font-weight: bold;
+}
+
+h2 a:link, a:visited {
+	color: #ccc;
+}
+
+h2 a:hover {
+	color: #a54846;
+}
+
+h3 {
+	color: #556788;
+	font-family: 'Armata', Arial, sans-serif;
 }
 
 /* NAV */
