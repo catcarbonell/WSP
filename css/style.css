@@ -7,11 +7,17 @@
 body {
 	background-color: #000;
 	color: #eee;
+	font-family: ;
 }
 
 h1 {
 	font-family: 'Rokkitt', Courier, serif;
 	color: #333;
+}
+
+a:link, a:visited {
+	color: #fff;
+	text-decoration: none;
 }
 
 .hide {
@@ -41,7 +47,11 @@ button {
 
 /* Input Fields */
 
-input[type=text] {
+input {
+	margin: 5px auto;
+}
+
+input[type=text], input[type=email], input[type=password] {
 	color: #333;
 }
 
@@ -53,24 +63,18 @@ img {
 }
 
 .logo { 
-	width: 75%;
-	max-width: 75%;
+	width: 65%;
+	max-width: 65%;
+
 }
 
 
 
 @media screen and (max-width: 487px) {
+	
+	.container {
+		margin-top: 20%;
+	}
 
-  span[id=switcher]{
-	display: block;
-    background: url(img/logomin.png) no-repeat;!important;
-    background-size: 100%;
-    background-position: center !important;
-    width: 300px !important;
-    height: 250px !important;
-  }
 
-  img[id=logohide] {
-  	display: none !important;
-  }
 }
