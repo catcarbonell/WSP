@@ -3,17 +3,22 @@
 /* IMPORTED FONTS */
 
 /* ROKKITT */ @import url(http://fonts.googleapis.com/css?family=Rokkitt:400,700); 
+/* RALEWAY */ @import url(http://fonts.googleapis.com/css?family=Raleway:700,400);
 
 
 /* STYLE MAX 1027px */
+
 body {
 	background-color: #000;
 	color: #eee;
+	font-family: 'Raleway', Tahoma, sans-serif;
 }
 
+/* GLOBAL LINKS */
 
 a:link, a:visited {
 	color: #fff;
+	font-weight: bold;
 	text-decoration: none;
 }
 
@@ -21,22 +26,21 @@ a:hover {
 	color: #ffcc33;
 }
 
-.hide {
-	display: none;
+/* IMAGES */
+
+img {
+	width: 75%;
+	max-width: 75%;
 }
 
-.container {
-	margin-top: 10%;
-}
-
-/* Headers */
+/* HEADERS */
 
 h1 {
 	color: #333;
 	font-family: 'Rokkitt', Courier, serif;
 }
 
-/* Navigation */
+/* NAV */
 
 .navbar {
 	background-color: #000;
@@ -47,13 +51,13 @@ h1 {
 	color: #ffcc33;
 }
 
-/* Button */
+/* BUTTONS */
 
 button {
 	margin: 0 5px;
 }
 
-/* Input Fields */
+/* FORM STYLES */
 
 input {
 	margin: 5px auto;
@@ -63,16 +67,21 @@ input[type=text], input[type=email], input[type=password] {
 	color: #333;
 }
 
-/* Images */
 
-img {
-	width: 75%;
-	max-width: 75%;
+/* MISC CLASSES */
+
+.hide {
+	display: none;
 }
 
+.container-top {
+	margin-top: 10%;
+}
+
+/* MISC IDs */
 
 
-
+/* MEDIA QUERIES */
 
 @media screen and (max-width: 487px) {
 	
