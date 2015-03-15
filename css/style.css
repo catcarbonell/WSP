@@ -9,7 +9,6 @@
 body {
 	background-color: #000;
 	color: #eee;
-	font-family: ;
 }
 
 
@@ -28,6 +27,13 @@ a:hover {
 
 .container {
 	margin-top: 10%;
+}
+
+/* Headers */
+
+h1 {
+	color: #333;
+	font-family: 'Rokkitt', Courier, serif;
 }
 
 /* Navigation */
