@@ -107,6 +107,19 @@ button {
 	margin: 0 5px;
 }
 
+.btn, .btn-success {
+	background: linear-gradient(#f1d746, #cb8117);
+	border: solid 2px #cb8117;
+	color: #333;
+}
+
+ .btn-success:hover {
+ 	background: linear-gradient(#ce5955, #a75550) ;
+	border: solid 2px #a75550;
+	color: #ccc;
+}
+ 
+
 /* FORM STYLES */
 
 input {
