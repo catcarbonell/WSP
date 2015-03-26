@@ -83,6 +83,7 @@ h2 {
 }
 
 h2 a:link, a:visited {
+	font-family: 'Anton', Arial, sans-serif;
 	color: #eee;
 }
 
@@ -151,10 +152,21 @@ input[type=text], input[type=email], input[type=password] {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 1024px) {
+	
+	
+	.navbar-form, .navbar-right, .form-group, .collapse, .collapsed {
+		border: 0;
+	}
+
+
+}
+
 @media screen and (max-width: 487px) {
 	
 	.container {
 		margin-top: 20%;
+		overflow: hidden;
 	}
 
 	.navbar-brand{
@@ -164,7 +176,6 @@ input[type=text], input[type=email], input[type=password] {
 }
 	.navbar-form, .navbar-right, .form-group, .collapse, .collapsed {
 		border: 0;
-	}
 	}
 
 
