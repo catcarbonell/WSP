@@ -64,6 +64,11 @@ img {
 	max-width: 95%;
 }
 
+.logo {
+	width: 75%;
+	max-width: 75%;
+};
+
 /* HEADERS */
 
 h1 {
@@ -78,7 +83,7 @@ h2 {
 }
 
 h2 a:link, a:visited {
-	color: #ccc;
+	color: #eee;
 }
 
 h2 a:hover {
@@ -150,6 +155,16 @@ input[type=text], input[type=email], input[type=password] {
 	
 	.container {
 		margin-top: 20%;
+	}
+
+	.navbar-brand{
+    width: 75%;
+    float: left;
+
+}
+	.navbar-form, .navbar-right, .form-group {
+		border: 0;
+	}
 	}
 
 
