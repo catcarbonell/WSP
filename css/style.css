@@ -107,6 +107,11 @@ h3 {
 	color: #ffcc33;
 }
 
+/* FOOTER */
+footer {
+	margin-top: 5%;
+	text-align: center;
+}
 /* BUTTONS */
 
 button {
@@ -155,6 +160,9 @@ input[type=text], input[type=email], input[type=password] {
 	opacity: 1;
 }
 
+.show {
+	opacity: 1;
+}
 /* MISC IDs */
 
 
