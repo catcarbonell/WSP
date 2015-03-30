@@ -147,6 +147,14 @@ input[type=text], input[type=email], input[type=password] {
 	margin-top: 10%;
 }
 
+.weapon {
+	opacity: 0.5;
+}
+
+.weapon:hover, .weapon:active {
+	opacity: 1;
+}
+
 /* MISC IDs */
 
 
