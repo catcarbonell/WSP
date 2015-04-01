@@ -107,6 +107,10 @@ h3 {
 	color: #ffcc33;
 }
 
+.navbar-form {
+	overflow: hidden;
+}
+
 /* FOOTER */
 footer {
 	margin-top: 5%;
